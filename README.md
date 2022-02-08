@@ -13,6 +13,7 @@ This is basic script which I use to make my life easier when setuping fresh Ubun
 -  ohmyzsh
 -  chrome gnome-shell
 -  gnome tweaks
+-  Redis Desktop Manager
 -  Spotify
 -  Git
 -  Docker

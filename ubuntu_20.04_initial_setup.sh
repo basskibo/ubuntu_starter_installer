@@ -47,6 +47,10 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io -y
 #sudo docker run hello-world
 sudo chmod 666 /var/run/docker.sock
 
+sudo snap install redis-desktop-manager
+
 # GNome shell and tweaks
 sudo apt-get install chrome-gnome-shell
 sudo apt install gnome-tweaks
+
+# white bih sur theme https://github.com/vinceliuice/WhiteSur-gtk-theme and icons https://github.com/vinceliuice/WhiteSur-icon-theme
