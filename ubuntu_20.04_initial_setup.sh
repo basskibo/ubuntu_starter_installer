@@ -54,3 +54,11 @@ sudo apt-get install chrome-gnome-shell
 sudo apt install gnome-tweaks
 
 # white bih sur theme https://github.com/vinceliuice/WhiteSur-gtk-theme and icons https://github.com/vinceliuice/WhiteSur-icon-theme
+
+
+# Install MongoDB
+echo "${RED}Starting MongoDB installation${NC}"
+wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add -
+echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
+sudo apt-get update
+sudo apt-get install -y mongodb-org
