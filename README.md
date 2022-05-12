@@ -19,4 +19,6 @@ This is basic script which I use to make my life easier when setuping fresh Ubun
 -  Docker
 -  Albert
 -  npm
+-  Nodejs
 -  n
+-  MongoDB
