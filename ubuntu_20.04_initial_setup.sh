@@ -3,8 +3,6 @@
 RED='\033[0;36m'
 NC='\033[0m' # No Color
 
-sudo snap install skype
-sudo snap install spotify
 curl https://build.opensuse.org/projects/home:manuelschneid3r/public_key | sudo apt-key add -
 echo 'deb http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_20.04/ /' | sudo tee /etc/apt/sources.list.d/home:manuelschneid3r.list
 sudo wget -nv https://download.opensuse.org/repositories/home:manuelschneid3r/xUbuntu_21.10/Release.key -O "/etc/apt/trusted.gpg.d/home:manuelschneid3r.asc"
@@ -62,3 +60,46 @@ wget -qO - https://www.mongodb.org/static/pgp/server-4.2.asc | sudo apt-key add 
 echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/4.2 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.2.list
 sudo apt-get update
 sudo apt-get install -y mongodb-org
+
+
+
+# Entertainment
+
+
+sudo snap install spotify
+sudo snap install musixmatch
+sudo snap install orange-app
+
+
+# Productivity && Social
+
+
+sudo snap install firefox
+sudo snap install cacher
+sudo snap install taskade
+
+
+
+sudo snap install telegram-desktop
+sudo snap install discord
+sudo snap install skype
+sudo snap install teams
+sudo snap install slack
+
+
+
+# Development
+
+
+sudo snap install postman
+npm install -g typescript
+npm install -g npx
+sudo snap install robo3t-snap
+sudo snap install sublime-text --classic
+sudo snap install beekeeper-studio
+
+
+
+
+
+cp ./.zshrc ~/
