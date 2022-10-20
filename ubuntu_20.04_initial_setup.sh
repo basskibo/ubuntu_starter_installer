@@ -26,6 +26,8 @@ sudo apt install zsh -y
  cd ~
  sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)" -y
 cp ./.zshrc ~/
+chsh -s $(which zsh)
+
 
 sudo apt-get install chrome-gnome-shell -y
 sudo apt install gnome-tweaks -y
