@@ -23,7 +23,8 @@ This script is your one-stop solution to setting up your Linux machine with esse
 
 ## 🛠️ Installation
 
-1. Clone this repository:
+Clone this repository, chmod scripts and run it, thats all. But if you need step by step you can find below:
+
 
 ```bash
    git clone git@github.com:basskibo/ubuntu_starter_installer.git
